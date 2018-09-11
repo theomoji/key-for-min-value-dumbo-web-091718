@@ -8,7 +8,7 @@ def key_for_min_value(hash)
   lowest_key = nil
 
   hash.each do |key, value|
-    if lowest_value == nil || value < lowest_val # tell me if this makes sense
+    if lowest_value == nil  # tell me if this makes sense
       lowest_value = value
       lowest_key = key
     elsif lowest_value > value
